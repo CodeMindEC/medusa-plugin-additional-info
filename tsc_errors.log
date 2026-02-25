@@ -1,0 +1,206 @@
+npm warn config ignoring workspace config at C:\Users\isai_\Documents\mariquitaweb\packages\medusa\medusa-additional-info-products/.npmrc
+../../../node_modules/.pnpm/@formatjs+ecma402-abstract@2.3.6/node_modules/@formatjs/ecma402-abstract/utils.d.ts(30,92): error TS2339: Property 'ListFormat' does not exist on type 'typeof Intl'.
+../../../node_modules/.pnpm/@formatjs+ecma402-abstract@2.3.6/node_modules/@formatjs/ecma402-abstract/utils.d.ts(30,113): error TS2694: Namespace 'Intl' has no exported member 'ListFormat'.
+../../../node_modules/.pnpm/@hookform+resolvers@3.4.2_react-hook-form@7.49.1_react@18.3.1_/node_modules/@hookform/resolvers/zod/dist/types.d.ts(3,92): error TS2694: Namespace '"C:/Users/isai_/Documents/mariquitaweb/node_modules/.pnpm/zod@4.3.5/node_modules/zod/v4/classic/external"' has no exported member 'ParseParams'.
+../../../node_modules/.pnpm/@internationalized+date@3.10.0/node_modules/@internationalized/date/dist/types.d.ts(160,5): error TS18028: Private identifiers are only available when targeting ECMAScript 2015 and higher.
+../../../node_modules/.pnpm/@internationalized+date@3.10.0/node_modules/@internationalized/date/dist/types.d.ts(201,5): error TS18028: Private identifiers are only available when targeting ECMAScript 2015 and higher.
+../../../node_modules/.pnpm/@internationalized+date@3.10.0/node_modules/@internationalized/date/dist/types.d.ts(231,5): error TS18028: Private identifiers are only available when targeting ECMAScript 2015 and higher.
+../../../node_modules/.pnpm/@internationalized+date@3.10.0/node_modules/@internationalized/date/dist/types.d.ts(280,5): error TS18028: Private identifiers are only available when targeting ECMAScript 2015 and higher.
+../../../node_modules/.pnpm/@internationalized+date@3.5.4/node_modules/@internationalized/date/dist/types.d.ts(152,5): error TS18028: Private identifiers are only available when targeting ECMAScript 2015 and higher.
+../../../node_modules/.pnpm/@internationalized+date@3.5.4/node_modules/@internationalized/date/dist/types.d.ts(193,5): error TS18028: Private identifiers are only available when targeting ECMAScript 2015 and higher.
+../../../node_modules/.pnpm/@internationalized+date@3.5.4/node_modules/@internationalized/date/dist/types.d.ts(223,5): error TS18028: Private identifiers are only available when targeting ECMAScript 2015 and higher.
+../../../node_modules/.pnpm/@internationalized+date@3.5.4/node_modules/@internationalized/date/dist/types.d.ts(272,5): error TS18028: Private identifiers are only available when targeting ECMAScript 2015 and higher.
+../../../node_modules/.pnpm/@medusajs+ui@4.0.25_@types+react-dom@18.3.7_@types+react@18.3.27__@types+react@18.3.27_react-_mulwcdq6y4okjz4hubexzqkw5u/node_modules/@medusajs/ui/dist/cjs/blocks/data-table/components/data-table-column-visibility-menu.d.ts(1,8): error TS1259: Module '"C:/Users/isai_/Documents/mariquitaweb/node_modules/.pnpm/@types+react@18.3.27/node_modules/@types/react/index"' can only be default-imported using the 'esModuleInterop' flag
+../../../node_modules/.pnpm/@medusajs+ui@4.0.25_@types+react-dom@18.3.7_@types+react@18.3.27__@types+react@18.3.27_react-_mulwcdq6y4okjz4hubexzqkw5u/node_modules/@medusajs/ui/dist/cjs/components/calendar/calendar.d.ts(30,56): error TS2344: Type 'CalendarDate' does not satisfy the constraint 'DateValue'.
+  Type 'CalendarDate' is not assignable to type 'ZonedDateTime'.
+    Property '#private' in type 'CalendarDate' refers to a different member that cannot be accessed from within type 'ZonedDateTime'.
+../../../node_modules/.pnpm/@medusajs+ui@4.0.25_@types+react-dom@18.3.7_@types+react@18.3.27__@types+react@18.3.27_react-_mulwcdq6y4okjz4hubexzqkw5u/node_modules/@medusajs/ui/dist/cjs/components/command/command.d.ts(1,8): error TS1259: Module '"C:/Users/isai_/Documents/mariquitaweb/node_modules/.pnpm/@types+react@18.3.27/node_modules/@types/react/index"' can only be default-imported using the 'esModuleInterop' flag
+../../../node_modules/.pnpm/@medusajs+ui@4.0.25_@types+react-dom@18.3.7_@types+react@18.3.27__@types+react@18.3.27_react-_mulwcdq6y4okjz4hubexzqkw5u/node_modules/@medusajs/ui/dist/cjs/components/copy/copy.d.ts(1,8): error TS1259: Module '"C:/Users/isai_/Documents/mariquitaweb/node_modules/.pnpm/@types+react@18.3.27/node_modules/@types/react/index"' can only be default-imported using the 'esModuleInterop' flag
+../../../node_modules/.pnpm/@medusajs+ui@4.0.25_@types+react-dom@18.3.7_@types+react@18.3.27__@types+react@18.3.27_react-_mulwcdq6y4okjz4hubexzqkw5u/node_modules/@medusajs/ui/dist/cjs/components/date-picker/date-picker.d.ts(18,60): error TS2344: Type 'CalendarDate | CalendarDateTime' does not satisfy the constraint 'DateValue'.
+  Type 'CalendarDate' is not assignable to type 'DateValue'.
+    Type 'CalendarDate' is not assignable to type 'ZonedDateTime'.
+      Property '#private' in type 'CalendarDate' refers to a different member that cannot be accessed from within type 'ZonedDateTime'.
+../../../node_modules/.pnpm/@radix-ui+react-accordion@1.2.2_@types+react-dom@18.3.7_@types+react@18.3.27__@types+react@18_3bvjtwmpkstorcuthgrflvlnxq/node_modules/@radix-ui/react-accordion/dist/index.d.ts(2,8): error TS1259: Module '"C:/Users/isai_/Documents/mariquitaweb/node_modules/.pnpm/@types+react@18.3.27/node_modules/@types/react/index"' can only be default-imported using the 'esModuleInterop' flag
+../../../node_modules/.pnpm/@radix-ui+react-toggle-group@1.1.1_@types+react-dom@18.3.7_@types+react@18.3.27__@types+react_45dtkbh5eel5ruzo5jb4r3nfyu/node_modules/@radix-ui/react-toggle-group/dist/index.d.ts(2,8): error TS1259: Module '"C:/Users/isai_/Documents/mariquitaweb/node_modules/.pnpm/@types+react@18.3.27/node_modules/@types/react/index"' can only be default-imported using the 'esModuleInterop' flag
+../../../node_modules/.pnpm/@react-aria+datepicker@3.15.2_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/@react-aria/datepicker/dist/types.d.ts(4,8): error TS1259: Module '"C:/Users/isai_/Documents/mariquitaweb/node_modules/.pnpm/@types+react@18.3.27/node_modules/@types/react/index"' can only be default-imported using the 'esModuleInterop' flag
+../../../node_modules/.pnpm/@react-aria+dnd@3.11.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/@react-aria/dnd/dist/types.d.ts(4,8): error TS1259: Module '"C:/Users/isai_/Documents/mariquitaweb/node_modules/.pnpm/@types+react@18.3.27/node_modules/@types/react/index"' can only be default-imported using the 'esModuleInterop' flag
+../../../node_modules/.pnpm/@react-aria+focus@3.21.2_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/@react-aria/focus/dist/types.d.ts(3,8): error TS1259: Module '"C:/Users/isai_/Documents/mariquitaweb/node_modules/.pnpm/@types+react@18.3.27/node_modules/@types/react/index"' can only be default-imported using the 'esModuleInterop' flag
+../../../node_modules/.pnpm/@react-aria+i18n@3.12.13_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/@react-aria/i18n/dist/types.d.ts(56,49): error TS2694: Namespace 'Intl' has no exported member 'ListFormatOptions'.
+../../../node_modules/.pnpm/@react-aria+i18n@3.12.13_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/@react-aria/i18n/dist/types.d.ts(56,74): error TS2694: Namespace 'Intl' has no exported member 'ListFormat'.
+../../../node_modules/.pnpm/@react-aria+interactions@3.25.6_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/@react-aria/interactions/dist/types.d.ts(2,8): error TS1259: Module '"C:/Users/isai_/Documents/mariquitaweb/node_modules/.pnpm/@types+react@18.3.27/node_modules/@types/react/index"' can only be default-imported using the 'esModuleInterop' flag
+../../../node_modules/.pnpm/@react-aria+overlays@3.30.0_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/@react-aria/overlays/dist/types.d.ts(5,8): error TS1259: Module '"C:/Users/isai_/Documents/mariquitaweb/node_modules/.pnpm/@types+react@18.3.27/node_modules/@types/react/index"' can only be default-imported using the 'esModuleInterop' flag
+../../../node_modules/.pnpm/@react-aria+select@3.17.0_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/@react-aria/select/dist/types.d.ts(2,8): error TS1259: Module '"C:/Users/isai_/Documents/mariquitaweb/node_modules/.pnpm/@types+react@18.3.27/node_modules/@types/react/index"' can only be default-imported using the 'esModuleInterop' flag
+../../../node_modules/.pnpm/@react-aria+utils@3.31.0_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/@react-aria/utils/dist/types.d.ts(1,8): error TS1259: Module '"C:/Users/isai_/Documents/mariquitaweb/node_modules/.pnpm/@types+react@18.3.27/node_modules/@types/react/index"' can only be default-imported using the 'esModuleInterop' flag
+../../../node_modules/.pnpm/@tanstack+query-core@5.90.16/node_modules/@tanstack/query-core/build/legacy/focusManager.d.ts(6,5): error TS18028: Private identifiers are only available when targeting ECMAScript 2015 and higher.
+../../../node_modules/.pnpm/@tanstack+query-core@5.90.16/node_modules/@tanstack/query-core/build/legacy/hydration-C-jfQLut.d.ts(9,5): error TS18028: Private identifiers are only available when targeting ECMAScript 2015 and higher.
+../../../node_modules/.pnpm/@tanstack+query-core@5.90.16/node_modules/@tanstack/query-core/build/legacy/hydration-C-jfQLut.d.ts(115,5): error TS18028: Private identifiers are only available when targeting ECMAScript 2015 and higher.
+../../../node_modules/.pnpm/@tanstack+query-core@5.90.16/node_modules/@tanstack/query-core/build/legacy/hydration-C-jfQLut.d.ts(156,5): error TS18028: Private identifiers are only available when targeting ECMAScript 2015 and higher.
+../../../node_modules/.pnpm/@tanstack+query-core@5.90.16/node_modules/@tanstack/query-core/build/legacy/hydration-C-jfQLut.d.ts(205,5): error TS18028: Private identifiers are only available when targeting ECMAScript 2015 and higher.
+../../../node_modules/.pnpm/@tanstack+query-core@5.90.16/node_modules/@tanstack/query-core/build/legacy/hydration-C-jfQLut.d.ts(266,5): error TS18028: Private identifiers are only available when targeting ECMAScript 2015 and higher.
+../../../node_modules/.pnpm/@tanstack+query-core@5.90.16/node_modules/@tanstack/query-core/build/legacy/hydration-C-jfQLut.d.ts(427,5): error TS18028: Private identifiers are only available when targeting ECMAScript 2015 and higher.
+../../../node_modules/.pnpm/@tanstack+query-core@5.90.16/node_modules/@tanstack/query-core/build/legacy/hydration-C-jfQLut.d.ts(444,5): error TS18028: Private identifiers are only available when targeting ECMAScript 2015 and higher.
+../../../node_modules/.pnpm/@tanstack+query-core@5.90.16/node_modules/@tanstack/query-core/build/legacy/onlineManager.d.ts(6,5): error TS18028: Private identifiers are only available when targeting ECMAScript 2015 and higher.
+../../../node_modules/.pnpm/@tanstack+query-core@5.90.16/node_modules/@tanstack/query-core/build/legacy/queriesObserver.d.ts(11,5): error TS18028: Private identifiers are only available when targeting ECMAScript 2015 and higher.
+../../../node_modules/.pnpm/@tanstack+query-core@5.90.16/node_modules/@tanstack/query-core/build/legacy/removable.d.ts(2,5): error TS18028: Private identifiers are only available when targeting ECMAScript 2015 and higher.
+../../../node_modules/.pnpm/@tanstack+query-core@5.90.16/node_modules/@tanstack/query-core/build/legacy/timeoutManager.d.ts(41,5): error TS18028: Private identifiers are only available when targeting ECMAScript 2015 and higher.
+../../../node_modules/.pnpm/@tanstack+react-query@5.64.2_react@18.3.1/node_modules/@tanstack/react-query/build/legacy/types.d.ts(19,210): error TS2707: Generic type 'InfiniteQueryObserverOptions<TQueryFnData, TError, TData, TQueryKey, TPageParam>' requires between 0 and 5 type arguments.
+../../../node_modules/.pnpm/react-currency-input-field@3.10.0_react@18.3.1/node_modules/react-currency-input-field/dist/components/CurrencyInputProps.d.ts(1,8): error TS1259: Module '"C:/Users/isai_/Documents/mariquitaweb/node_modules/.pnpm/@types+react@18.3.27/node_modules/@types/react/index"' can only be default-imported using the 'esModuleInterop' flag
+../../../node_modules/.pnpm/react-hook-form@7.49.1_react@18.3.1/node_modules/react-hook-form/dist/form.d.ts(1,8): error TS1259: Module '"C:/Users/isai_/Documents/mariquitaweb/node_modules/.pnpm/@types+react@18.3.27/node_modules/@types/react/index"' can only be default-imported using the 'esModuleInterop' flag
+../../../node_modules/.pnpm/react-hook-form@7.49.1_react@18.3.1/node_modules/react-hook-form/dist/types/controller.d.ts(1,8): error TS1259: Module '"C:/Users/isai_/Documents/mariquitaweb/node_modules/.pnpm/@types+react@18.3.27/node_modules/@types/react/index"' can only be default-imported using the 'esModuleInterop' flag
+../../../node_modules/.pnpm/react-hook-form@7.49.1_react@18.3.1/node_modules/react-hook-form/dist/types/form.d.ts(1,8): error TS1259: Module '"C:/Users/isai_/Documents/mariquitaweb/node_modules/.pnpm/@types+react@18.3.27/node_modules/@types/react/index"' can only be default-imported using the 'esModuleInterop' flag
+../../../node_modules/.pnpm/react-hook-form@7.49.1_react@18.3.1/node_modules/react-hook-form/dist/useFormContext.d.ts(1,8): error TS1259: Module '"C:/Users/isai_/Documents/mariquitaweb/node_modules/.pnpm/@types+react@18.3.27/node_modules/@types/react/index"' can only be default-imported using the 'esModuleInterop' flag
+../../../node_modules/.pnpm/sonner@1.7.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/sonner/dist/index.d.ts(1,8): error TS1259: Module '"C:/Users/isai_/Documents/mariquitaweb/node_modules/.pnpm/@types+react@18.3.27/node_modules/@types/react/index"' can only be default-imported using the 'esModuleInterop' flag
+../../../node_modules/.pnpm/zod@4.3.5/node_modules/zod/v4/locales/index.d.cts(1,21): error TS1259: Module '"C:/Users/isai_/Documents/mariquitaweb/node_modules/.pnpm/zod@4.3.5/node_modules/zod/v4/locales/ar"' can only be default-imported using the 'esModuleInterop' flag
+../../../node_modules/.pnpm/zod@4.3.5/node_modules/zod/v4/locales/index.d.cts(2,21): error TS1259: Module '"C:/Users/isai_/Documents/mariquitaweb/node_modules/.pnpm/zod@4.3.5/node_modules/zod/v4/locales/az"' can only be default-imported using the 'esModuleInterop' flag
+../../../node_modules/.pnpm/zod@4.3.5/node_modules/zod/v4/locales/index.d.cts(3,21): error TS1259: Module '"C:/Users/isai_/Documents/mariquitaweb/node_modules/.pnpm/zod@4.3.5/node_modules/zod/v4/locales/be"' can only be default-imported using the 'esModuleInterop' flag
+../../../node_modules/.pnpm/zod@4.3.5/node_modules/zod/v4/locales/index.d.cts(4,21): error TS1259: Module '"C:/Users/isai_/Documents/mariquitaweb/node_modules/.pnpm/zod@4.3.5/node_modules/zod/v4/locales/bg"' can only be default-imported using the 'esModuleInterop' flag
+../../../node_modules/.pnpm/zod@4.3.5/node_modules/zod/v4/locales/index.d.cts(5,21): error TS1259: Module '"C:/Users/isai_/Documents/mariquitaweb/node_modules/.pnpm/zod@4.3.5/node_modules/zod/v4/locales/ca"' can only be default-imported using the 'esModuleInterop' flag
+../../../node_modules/.pnpm/zod@4.3.5/node_modules/zod/v4/locales/index.d.cts(6,21): error TS1259: Module '"C:/Users/isai_/Documents/mariquitaweb/node_modules/.pnpm/zod@4.3.5/node_modules/zod/v4/locales/cs"' can only be default-imported using the 'esModuleInterop' flag
+../../../node_modules/.pnpm/zod@4.3.5/node_modules/zod/v4/locales/index.d.cts(7,21): error TS1259: Module '"C:/Users/isai_/Documents/mariquitaweb/node_modules/.pnpm/zod@4.3.5/node_modules/zod/v4/locales/da"' can only be default-imported using the 'esModuleInterop' flag
+../../../node_modules/.pnpm/zod@4.3.5/node_modules/zod/v4/locales/index.d.cts(8,21): error TS1259: Module '"C:/Users/isai_/Documents/mariquitaweb/node_modules/.pnpm/zod@4.3.5/node_modules/zod/v4/locales/de"' can only be default-imported using the 'esModuleInterop' flag
+../../../node_modules/.pnpm/zod@4.3.5/node_modules/zod/v4/locales/index.d.cts(9,21): error TS1259: Module '"C:/Users/isai_/Documents/mariquitaweb/node_modules/.pnpm/zod@4.3.5/node_modules/zod/v4/locales/en"' can only be default-imported using the 'esModuleInterop' flag
+../../../node_modules/.pnpm/zod@4.3.5/node_modules/zod/v4/locales/index.d.cts(10,21): error TS1259: Module '"C:/Users/isai_/Documents/mariquitaweb/node_modules/.pnpm/zod@4.3.5/node_modules/zod/v4/locales/eo"' can only be default-imported using the 'esModuleInterop' flag
+../../../node_modules/.pnpm/zod@4.3.5/node_modules/zod/v4/locales/index.d.cts(11,21): error TS1259: Module '"C:/Users/isai_/Documents/mariquitaweb/node_modules/.pnpm/zod@4.3.5/node_modules/zod/v4/locales/es"' can only be default-imported using the 'esModuleInterop' flag
+../../../node_modules/.pnpm/zod@4.3.5/node_modules/zod/v4/locales/index.d.cts(12,21): error TS1259: Module '"C:/Users/isai_/Documents/mariquitaweb/node_modules/.pnpm/zod@4.3.5/node_modules/zod/v4/locales/fa"' can only be default-imported using the 'esModuleInterop' flag
+../../../node_modules/.pnpm/zod@4.3.5/node_modules/zod/v4/locales/index.d.cts(13,21): error TS1259: Module '"C:/Users/isai_/Documents/mariquitaweb/node_modules/.pnpm/zod@4.3.5/node_modules/zod/v4/locales/fi"' can only be default-imported using the 'esModuleInterop' flag
+../../../node_modules/.pnpm/zod@4.3.5/node_modules/zod/v4/locales/index.d.cts(14,21): error TS1259: Module '"C:/Users/isai_/Documents/mariquitaweb/node_modules/.pnpm/zod@4.3.5/node_modules/zod/v4/locales/fr"' can only be default-imported using the 'esModuleInterop' flag
+../../../node_modules/.pnpm/zod@4.3.5/node_modules/zod/v4/locales/index.d.cts(15,21): error TS1259: Module '"C:/Users/isai_/Documents/mariquitaweb/node_modules/.pnpm/zod@4.3.5/node_modules/zod/v4/locales/fr-CA"' can only be default-imported using the 'esModuleInterop' flag
+../../../node_modules/.pnpm/zod@4.3.5/node_modules/zod/v4/locales/index.d.cts(16,21): error TS1259: Module '"C:/Users/isai_/Documents/mariquitaweb/node_modules/.pnpm/zod@4.3.5/node_modules/zod/v4/locales/he"' can only be default-imported using the 'esModuleInterop' flag
+../../../node_modules/.pnpm/zod@4.3.5/node_modules/zod/v4/locales/index.d.cts(17,21): error TS1259: Module '"C:/Users/isai_/Documents/mariquitaweb/node_modules/.pnpm/zod@4.3.5/node_modules/zod/v4/locales/hu"' can only be default-imported using the 'esModuleInterop' flag
+../../../node_modules/.pnpm/zod@4.3.5/node_modules/zod/v4/locales/index.d.cts(18,21): error TS1259: Module '"C:/Users/isai_/Documents/mariquitaweb/node_modules/.pnpm/zod@4.3.5/node_modules/zod/v4/locales/hy"' can only be default-imported using the 'esModuleInterop' flag
+../../../node_modules/.pnpm/zod@4.3.5/node_modules/zod/v4/locales/index.d.cts(19,21): error TS1259: Module '"C:/Users/isai_/Documents/mariquitaweb/node_modules/.pnpm/zod@4.3.5/node_modules/zod/v4/locales/id"' can only be default-imported using the 'esModuleInterop' flag
+../../../node_modules/.pnpm/zod@4.3.5/node_modules/zod/v4/locales/index.d.cts(20,21): error TS1259: Module '"C:/Users/isai_/Documents/mariquitaweb/node_modules/.pnpm/zod@4.3.5/node_modules/zod/v4/locales/is"' can only be default-imported using the 'esModuleInterop' flag
+../../../node_modules/.pnpm/zod@4.3.5/node_modules/zod/v4/locales/index.d.cts(21,21): error TS1259: Module '"C:/Users/isai_/Documents/mariquitaweb/node_modules/.pnpm/zod@4.3.5/node_modules/zod/v4/locales/it"' can only be default-imported using the 'esModuleInterop' flag
+../../../node_modules/.pnpm/zod@4.3.5/node_modules/zod/v4/locales/index.d.cts(22,21): error TS1259: Module '"C:/Users/isai_/Documents/mariquitaweb/node_modules/.pnpm/zod@4.3.5/node_modules/zod/v4/locales/ja"' can only be default-imported using the 'esModuleInterop' flag
+../../../node_modules/.pnpm/zod@4.3.5/node_modules/zod/v4/locales/index.d.cts(23,21): error TS1259: Module '"C:/Users/isai_/Documents/mariquitaweb/node_modules/.pnpm/zod@4.3.5/node_modules/zod/v4/locales/ka"' can only be default-imported using the 'esModuleInterop' flag
+../../../node_modules/.pnpm/zod@4.3.5/node_modules/zod/v4/locales/index.d.cts(24,21): error TS1259: Module '"C:/Users/isai_/Documents/mariquitaweb/node_modules/.pnpm/zod@4.3.5/node_modules/zod/v4/locales/kh"' can only be default-imported using the 'esModuleInterop' flag
+../../../node_modules/.pnpm/zod@4.3.5/node_modules/zod/v4/locales/index.d.cts(25,21): error TS1259: Module '"C:/Users/isai_/Documents/mariquitaweb/node_modules/.pnpm/zod@4.3.5/node_modules/zod/v4/locales/km"' can only be default-imported using the 'esModuleInterop' flag
+../../../node_modules/.pnpm/zod@4.3.5/node_modules/zod/v4/locales/index.d.cts(26,21): error TS1259: Module '"C:/Users/isai_/Documents/mariquitaweb/node_modules/.pnpm/zod@4.3.5/node_modules/zod/v4/locales/ko"' can only be default-imported using the 'esModuleInterop' flag
+../../../node_modules/.pnpm/zod@4.3.5/node_modules/zod/v4/locales/index.d.cts(27,21): error TS1259: Module '"C:/Users/isai_/Documents/mariquitaweb/node_modules/.pnpm/zod@4.3.5/node_modules/zod/v4/locales/lt"' can only be default-imported using the 'esModuleInterop' flag
+../../../node_modules/.pnpm/zod@4.3.5/node_modules/zod/v4/locales/index.d.cts(28,21): error TS1259: Module '"C:/Users/isai_/Documents/mariquitaweb/node_modules/.pnpm/zod@4.3.5/node_modules/zod/v4/locales/mk"' can only be default-imported using the 'esModuleInterop' flag
+../../../node_modules/.pnpm/zod@4.3.5/node_modules/zod/v4/locales/index.d.cts(29,21): error TS1259: Module '"C:/Users/isai_/Documents/mariquitaweb/node_modules/.pnpm/zod@4.3.5/node_modules/zod/v4/locales/ms"' can only be default-imported using the 'esModuleInterop' flag
+../../../node_modules/.pnpm/zod@4.3.5/node_modules/zod/v4/locales/index.d.cts(30,21): error TS1259: Module '"C:/Users/isai_/Documents/mariquitaweb/node_modules/.pnpm/zod@4.3.5/node_modules/zod/v4/locales/nl"' can only be default-imported using the 'esModuleInterop' flag
+../../../node_modules/.pnpm/zod@4.3.5/node_modules/zod/v4/locales/index.d.cts(31,21): error TS1259: Module '"C:/Users/isai_/Documents/mariquitaweb/node_modules/.pnpm/zod@4.3.5/node_modules/zod/v4/locales/no"' can only be default-imported using the 'esModuleInterop' flag
+../../../node_modules/.pnpm/zod@4.3.5/node_modules/zod/v4/locales/index.d.cts(32,21): error TS1259: Module '"C:/Users/isai_/Documents/mariquitaweb/node_modules/.pnpm/zod@4.3.5/node_modules/zod/v4/locales/ota"' can only be default-imported using the 'esModuleInterop' flag
+../../../node_modules/.pnpm/zod@4.3.5/node_modules/zod/v4/locales/index.d.cts(33,21): error TS1259: Module '"C:/Users/isai_/Documents/mariquitaweb/node_modules/.pnpm/zod@4.3.5/node_modules/zod/v4/locales/ps"' can only be default-imported using the 'esModuleInterop' flag
+../../../node_modules/.pnpm/zod@4.3.5/node_modules/zod/v4/locales/index.d.cts(34,21): error TS1259: Module '"C:/Users/isai_/Documents/mariquitaweb/node_modules/.pnpm/zod@4.3.5/node_modules/zod/v4/locales/pl"' can only be default-imported using the 'esModuleInterop' flag
+../../../node_modules/.pnpm/zod@4.3.5/node_modules/zod/v4/locales/index.d.cts(35,21): error TS1259: Module '"C:/Users/isai_/Documents/mariquitaweb/node_modules/.pnpm/zod@4.3.5/node_modules/zod/v4/locales/pt"' can only be default-imported using the 'esModuleInterop' flag
+../../../node_modules/.pnpm/zod@4.3.5/node_modules/zod/v4/locales/index.d.cts(36,21): error TS1259: Module '"C:/Users/isai_/Documents/mariquitaweb/node_modules/.pnpm/zod@4.3.5/node_modules/zod/v4/locales/ru"' can only be default-imported using the 'esModuleInterop' flag
+../../../node_modules/.pnpm/zod@4.3.5/node_modules/zod/v4/locales/index.d.cts(37,21): error TS1259: Module '"C:/Users/isai_/Documents/mariquitaweb/node_modules/.pnpm/zod@4.3.5/node_modules/zod/v4/locales/sl"' can only be default-imported using the 'esModuleInterop' flag
+../../../node_modules/.pnpm/zod@4.3.5/node_modules/zod/v4/locales/index.d.cts(38,21): error TS1259: Module '"C:/Users/isai_/Documents/mariquitaweb/node_modules/.pnpm/zod@4.3.5/node_modules/zod/v4/locales/sv"' can only be default-imported using the 'esModuleInterop' flag
+../../../node_modules/.pnpm/zod@4.3.5/node_modules/zod/v4/locales/index.d.cts(39,21): error TS1259: Module '"C:/Users/isai_/Documents/mariquitaweb/node_modules/.pnpm/zod@4.3.5/node_modules/zod/v4/locales/ta"' can only be default-imported using the 'esModuleInterop' flag
+../../../node_modules/.pnpm/zod@4.3.5/node_modules/zod/v4/locales/index.d.cts(40,21): error TS1259: Module '"C:/Users/isai_/Documents/mariquitaweb/node_modules/.pnpm/zod@4.3.5/node_modules/zod/v4/locales/th"' can only be default-imported using the 'esModuleInterop' flag
+../../../node_modules/.pnpm/zod@4.3.5/node_modules/zod/v4/locales/index.d.cts(41,21): error TS1259: Module '"C:/Users/isai_/Documents/mariquitaweb/node_modules/.pnpm/zod@4.3.5/node_modules/zod/v4/locales/tr"' can only be default-imported using the 'esModuleInterop' flag
+../../../node_modules/.pnpm/zod@4.3.5/node_modules/zod/v4/locales/index.d.cts(42,21): error TS1259: Module '"C:/Users/isai_/Documents/mariquitaweb/node_modules/.pnpm/zod@4.3.5/node_modules/zod/v4/locales/ua"' can only be default-imported using the 'esModuleInterop' flag
+../../../node_modules/.pnpm/zod@4.3.5/node_modules/zod/v4/locales/index.d.cts(43,21): error TS1259: Module '"C:/Users/isai_/Documents/mariquitaweb/node_modules/.pnpm/zod@4.3.5/node_modules/zod/v4/locales/uk"' can only be default-imported using the 'esModuleInterop' flag
+../../../node_modules/.pnpm/zod@4.3.5/node_modules/zod/v4/locales/index.d.cts(44,21): error TS1259: Module '"C:/Users/isai_/Documents/mariquitaweb/node_modules/.pnpm/zod@4.3.5/node_modules/zod/v4/locales/ur"' can only be default-imported using the 'esModuleInterop' flag
+../../../node_modules/.pnpm/zod@4.3.5/node_modules/zod/v4/locales/index.d.cts(45,21): error TS1259: Module '"C:/Users/isai_/Documents/mariquitaweb/node_modules/.pnpm/zod@4.3.5/node_modules/zod/v4/locales/uz"' can only be default-imported using the 'esModuleInterop' flag
+../../../node_modules/.pnpm/zod@4.3.5/node_modules/zod/v4/locales/index.d.cts(46,21): error TS1259: Module '"C:/Users/isai_/Documents/mariquitaweb/node_modules/.pnpm/zod@4.3.5/node_modules/zod/v4/locales/vi"' can only be default-imported using the 'esModuleInterop' flag
+../../../node_modules/.pnpm/zod@4.3.5/node_modules/zod/v4/locales/index.d.cts(47,21): error TS1259: Module '"C:/Users/isai_/Documents/mariquitaweb/node_modules/.pnpm/zod@4.3.5/node_modules/zod/v4/locales/zh-CN"' can only be default-imported using the 'esModuleInterop' flag
+../../../node_modules/.pnpm/zod@4.3.5/node_modules/zod/v4/locales/index.d.cts(48,21): error TS1259: Module '"C:/Users/isai_/Documents/mariquitaweb/node_modules/.pnpm/zod@4.3.5/node_modules/zod/v4/locales/zh-TW"' can only be default-imported using the 'esModuleInterop' flag
+../../../node_modules/.pnpm/zod@4.3.5/node_modules/zod/v4/locales/index.d.cts(49,21): error TS1259: Module '"C:/Users/isai_/Documents/mariquitaweb/node_modules/.pnpm/zod@4.3.5/node_modules/zod/v4/locales/yo"' can only be default-imported using the 'esModuleInterop' flag
+src/admin/adapters/medusa/sdk.ts(9,18): error TS1343: The 'import.meta' meta-property is only allowed when the '--module' option is 'es2020', 'es2022', 'esnext', 'system', 'node16', 'node18', 'node20', or 'nodenext'.
+src/admin/routes/additional-info-templates/page.tsx(19,19): error TS2307: Cannot find module 'zod' or its corresponding type declarations.
+src/admin/routes/additional-info-templates/page.tsx(26,63): error TS6142: Module '../../components/Templates/AttributeEditor' was resolved to 'C:/Users/isai_/Documents/mariquitaweb/packages/medusa/medusa-additional-info-products/src/admin/components/Templates/AttributeEditor.tsx', but '--jsx' is not set.
+src/admin/routes/additional-info-templates/page.tsx(335,9): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/admin/routes/additional-info-templates/page.tsx(336,13): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/admin/routes/additional-info-templates/page.tsx(337,17): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/admin/routes/additional-info-templates/page.tsx(338,17): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/admin/routes/additional-info-templates/page.tsx(343,13): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/admin/routes/additional-info-templates/page.tsx(344,17): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/admin/routes/additional-info-templates/page.tsx(345,21): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/admin/routes/additional-info-templates/page.tsx(346,21): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/admin/routes/additional-info-templates/page.tsx(350,17): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/admin/routes/additional-info-templates/page.tsx(351,21): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/admin/routes/additional-info-templates/page.tsx(352,25): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/admin/routes/additional-info-templates/page.tsx(355,25): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/admin/routes/additional-info-templates/page.tsx(356,29): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/admin/routes/additional-info-templates/page.tsx(357,33): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/admin/routes/additional-info-templates/page.tsx(359,29): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/admin/routes/additional-info-templates/page.tsx(360,33): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/admin/routes/additional-info-templates/page.tsx(362,37): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/admin/routes/additional-info-templates/page.tsx(369,29): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/admin/routes/additional-info-templates/page.tsx(374,29): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/admin/routes/additional-info-templates/page.tsx(379,21): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/admin/routes/additional-info-templates/page.tsx(380,25): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/admin/routes/additional-info-templates/page.tsx(391,13): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/admin/routes/additional-info-templates/page.tsx(392,17): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/admin/routes/additional-info-templates/page.tsx(393,21): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/admin/routes/additional-info-templates/page.tsx(394,21): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/admin/routes/additional-info-templates/page.tsx(398,17): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/admin/routes/additional-info-templates/page.tsx(399,21): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/admin/routes/additional-info-templates/page.tsx(400,21): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/admin/routes/additional-info-templates/page.tsx(401,25): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/admin/routes/additional-info-templates/page.tsx(404,25): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/admin/routes/additional-info-templates/page.tsx(406,29): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/admin/routes/additional-info-templates/page.tsx(412,21): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/admin/routes/additional-info-templates/page.tsx(413,25): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/admin/routes/additional-info-templates/page.tsx(416,25): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/admin/routes/additional-info-templates/page.tsx(424,21): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/admin/routes/additional-info-templates/page.tsx(425,25): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/admin/routes/additional-info-templates/page.tsx(426,25): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/admin/routes/additional-info-templates/page.tsx(437,25): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/admin/routes/additional-info-templates/page.tsx(438,29): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/admin/routes/additional-info-templates/page.tsx(441,29): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/admin/routes/additional-info-templates/page.tsx(459,29): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/admin/routes/additional-info-templates/page.tsx(460,33): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/admin/routes/additional-info-templates/page.tsx(471,37): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/admin/routes/additional-info-templates/page.tsx(475,33): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/admin/routes/additional-info-templates/page.tsx(476,37): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/admin/routes/additional-info-templates/page.tsx(479,37): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/admin/routes/additional-info-templates/page.tsx(502,21): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/admin/routes/additional-info-templates/page.tsx(504,29): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/admin/routes/additional-info-templates/page.tsx(514,25): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/admin/routes/additional-info-templates/page.tsx(521,13): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/admin/routes/additional-info-templates/page.tsx(522,17): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/admin/routes/additional-info-templates/page.tsx(523,21): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/admin/routes/additional-info-templates/page.tsx(524,21): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/admin/routes/additional-info-templates/page.tsx(528,17): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/admin/routes/additional-info-templates/page.tsx(529,21): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/admin/routes/additional-info-templates/page.tsx(530,25): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/admin/routes/additional-info-templates/page.tsx(531,29): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/admin/routes/additional-info-templates/page.tsx(534,29): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/admin/routes/additional-info-templates/page.tsx(545,25): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/admin/routes/additional-info-templates/page.tsx(546,29): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/admin/routes/additional-info-templates/page.tsx(549,29): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/admin/routes/additional-info-templates/page.tsx(550,33): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/admin/routes/additional-info-templates/page.tsx(551,37): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/admin/routes/additional-info-templates/page.tsx(553,33): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/admin/routes/additional-info-templates/page.tsx(555,41): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/admin/routes/additional-info-templates/page.tsx(563,25): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/admin/routes/additional-info-templates/page.tsx(564,29): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/admin/routes/additional-info-templates/page.tsx(567,29): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/admin/routes/additional-info-templates/page.tsx(570,29): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/admin/routes/additional-info-templates/page.tsx(582,21): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/admin/routes/additional-info-templates/page.tsx(583,25): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/admin/routes/additional-info-templates/page.tsx(584,29): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/admin/routes/additional-info-templates/page.tsx(585,33): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/admin/routes/additional-info-templates/page.tsx(586,37): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/admin/routes/additional-info-templates/page.tsx(587,41): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/admin/routes/additional-info-templates/page.tsx(589,37): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/admin/routes/additional-info-templates/page.tsx(590,37): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/admin/routes/additional-info-templates/page.tsx(591,37): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/admin/routes/additional-info-templates/page.tsx(594,29): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/admin/routes/additional-info-templates/page.tsx(603,41): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/admin/routes/additional-info-templates/page.tsx(604,45): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/admin/routes/additional-info-templates/page.tsx(605,49): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/admin/routes/additional-info-templates/page.tsx(610,45): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/admin/routes/additional-info-templates/page.tsx(611,49): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/admin/routes/additional-info-templates/page.tsx(612,53): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/admin/routes/additional-info-templates/page.tsx(616,57): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/admin/routes/additional-info-templates/page.tsx(622,45): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/admin/routes/additional-info-templates/page.tsx(623,49): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/admin/routes/additional-info-templates/page.tsx(627,45): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/admin/routes/additional-info-templates/page.tsx(629,53): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/admin/routes/additional-info-templates/page.tsx(633,53): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/admin/routes/additional-info-templates/page.tsx(642,37): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/admin/routes/additional-info-templates/page.tsx(643,41): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/admin/routes/additional-info-templates/page.tsx(644,41): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/admin/routes/additional-info-templates/page.tsx(645,45): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/admin/routes/additional-info-templates/page.tsx(649,41): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/admin/routes/additional-info-templates/page.tsx(650,41): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/admin/routes/additional-info-templates/page.tsx(658,25): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/admin/routes/additional-info-templates/page.tsx(663,25): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/admin/routes/additional-info-templates/page.tsx(668,25): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/admin/routes/additional-info-templates/page.tsx(673,25): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/admin/utils/attributes.ts(1,46): error TS6142: Module '../components/Templates/AttributeEditor' was resolved to 'C:/Users/isai_/Documents/mariquitaweb/packages/medusa/medusa-additional-info-products/src/admin/components/Templates/AttributeEditor.tsx', but '--jsx' is not set.
