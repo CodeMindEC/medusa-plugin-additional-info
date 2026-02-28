@@ -17,7 +17,7 @@ import {
 import { usePrompt } from "@medusajs/ui"
 import { useEffect, useMemo, useState } from "react"
 import { useForm, type Resolver } from "react-hook-form"
-import { z } from "zod"
+import { z } from "@medusajs/framework/zod"
 import {
     useAdditionalInfoTemplates,
     useCreateAdditionalInfoTemplate,

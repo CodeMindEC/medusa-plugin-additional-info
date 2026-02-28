@@ -1,4 +1,4 @@
-import { z } from "zod"
+import { z } from "@medusajs/framework/zod"
 import { zAIBlockV1 } from "./blocks.v1"
 import { zAINodeV1 } from "./tree.v1"
 

@@ -1,4 +1,4 @@
-import { z } from "zod"
+import { z } from "@medusajs/framework/zod"
 
 export const zAIBlockV1 = z.discriminatedUnion("kind", [
     z.object({ kind: z.literal("md"), value: z.string() }),

@@ -1,6 +1,6 @@
 import { defineMiddlewares, authenticate, validateAndTransformBody } from "@medusajs/framework/http"
 import { CreateTemplateSchema, CreateValueSchema } from "./admin/additional-info/validators"
-import { z } from "zod"
+import { z } from "@medusajs/framework/zod"
 
 export default defineMiddlewares({
     routes: [
