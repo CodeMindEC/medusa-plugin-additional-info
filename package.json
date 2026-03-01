@@ -3,39 +3,7 @@
   "description": "A starter for Medusa plugins.",
   "version": "0.0.1",
   "author": "Medusa (https://medusajs.com)",
-  "dependencies": {
-    "@dnd-kit/core": "^6.1.0",
-    "@dnd-kit/sortable": "^8.0.0",
-    "@dnd-kit/utilities": "^3.2.2"
-  },
-  "devDependencies": {
-    "@hookform/resolvers": "^3.9.0",
-    "@medusajs/admin-sdk": "2.13.3",
-    "@medusajs/admin-shared": "2.13.3",
-    "@medusajs/cli": "2.13.3",
-    "@medusajs/framework": "2.13.3",
-    "@medusajs/icons": "^2.13.3",
-    "@medusajs/medusa": "2.13.3",
-    "@medusajs/test-utils": "2.13.3",
-    "@medusajs/ui": "^4.0.27",
-    "@swc/core": "^1.7.28",
-    "@tanstack/react-query": "5.64.2",
-    "@types/node": "^20",
-    "@types/react": "^19.2.7",
-    "@types/react-dom": "^19.2.3",
-    "prop-types": "^15.8.1",
-    "react": "^19.2.0",
-    "react-dom": "^19.2.0",
-    "react-hook-form": "7.49.1",
-    "ts-node": "^10.9.2",
-    "typescript": "^5",
-    "vite": "^5.4.14",
-    "vitest": "^1.4.0",
-    "yalc": "^1.0.0-pre.53"
-  },
-  "engines": {
-    "node": ">=20"
-  },
+  "license": "MIT",
   "exports": {
     ".": {
       "types": "./src/index.ts",
@@ -55,6 +23,44 @@
       "default": "./.medusa/server/src/admin/index.js"
     }
   },
+  "scripts": {
+    "build": "medusa plugin:build",
+    "dev": "medusa plugin:develop",
+    "prepublishOnly": "medusa plugin:build",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@dnd-kit/core": "^6.1.0",
+    "@dnd-kit/sortable": "^8.0.0",
+    "@dnd-kit/utilities": "^3.2.2"
+  },
+  "devDependencies": {
+    "@hookform/resolvers": "^3.9.0",
+    "@medusajs/admin-sdk": "2.13.3",
+    "@medusajs/admin-shared": "2.13.3",
+    "@medusajs/cli": "2.13.3",
+    "@medusajs/framework": "2.13.3",
+    "@medusajs/icons": "^2.13.3",
+    "@medusajs/medusa": "2.13.3",
+    "@medusajs/test-utils": "2.13.3",
+    "@medusajs/ui": "^4.0.27",
+    "@swc/core": "^1.7.28",
+    "@types/node": "^20",
+    "@types/react": "^18.3.11",
+    "@types/react-dom": "^18.3.1",
+    "prop-types": "^15.8.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-hook-form": "7.49.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5",
+    "vite": "^5.4.14",
+    "vitest": "^1.4.0",
+    "yalc": "^1.0.0-pre.53"
+  },
+  "engines": {
+    "node": ">=20"
+  },
   "files": [
     ".medusa/server"
   ],
@@ -65,7 +71,6 @@
     "medusa-v2",
     "plugin"
   ],
-  "license": "MIT",
   "packageManager": "pnpm@9.15.9",
   "peerDependencies": {
     "@hookform/resolvers": "^3.9.0",
@@ -76,13 +81,6 @@
     "@medusajs/medusa": "2.13.3",
     "@medusajs/test-utils": "2.13.3",
     "@medusajs/ui": "^4.0.27",
-    "@tanstack/react-query": "5.64.2",
     "react-hook-form": "7.49.1"
-  },
-  "scripts": {
-    "build": "medusa plugin:build",
-    "dev": "medusa plugin:develop",
-    "prepublishOnly": "medusa plugin:build",
-    "test": "vitest run"
   }
 }
