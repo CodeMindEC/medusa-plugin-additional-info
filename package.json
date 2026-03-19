@@ -1,8 +1,8 @@
 {
-  "name": "medusa-additional-info-products",
-  "description": "A starter for Medusa plugins.",
-  "version": "0.0.1",
-  "author": "Medusa (https://medusajs.com)",
+  "name": "@codemind/medusa-plugin-additional-info",
+  "description": "Medusa v2 plugin for hierarchical product metadata — tree-based templates, drag-and-drop ordering, and per-variant overrides.",
+  "version": "1.0.0",
+  "author": "Kollor <dev@codemind.ec> (https://codemind.ec)",
   "license": "MIT",
   "exports": {
     ".": {
@@ -67,9 +67,12 @@
   "keywords": [
     "medusa",
     "medusa-plugin",
-    "medusa-plugin-other",
     "medusa-v2",
-    "plugin"
+    "plugin",
+    "additional-info",
+    "product-metadata",
+    "codemind",
+    "kollor"
   ],
   "packageManager": "pnpm@9.15.9",
   "peerDependencies": {
