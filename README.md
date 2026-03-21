@@ -1,64 +1,240 @@
-<p align="center">
-  <a href="https://www.medusajs.com">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://user-images.githubusercontent.com/59018053/229103275-b5e482bb-4601-46e6-8142-244f531cebdb.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://user-images.githubusercontent.com/59018053/229103726-e5b529a3-9b3f-4970-8a1f-c6af37f087bf.svg">
-    <img alt="Medusa logo" src="https://user-images.githubusercontent.com/59018053/229103726-e5b529a3-9b3f-4970-8a1f-c6af37f087bf.svg">
-    </picture>
-  </a>
-</p>
-<h1 align="center">
-  Medusa Plugin Starter
-</h1>
+# @codemind.ec/medusa-plugin-additional-info
 
-<h4 align="center">
-  <a href="https://docs.medusajs.com">Documentation</a> |
-  <a href="https://www.medusajs.com">Website</a>
-</h4>
+Medusa v2 plugin for **hierarchical product metadata** — tree-based templates, diff-based updates, drag-and-drop ordering, and per-product overrides.
 
-<p align="center">
-  Building blocks for digital commerce
-</p>
-<p align="center">
-  <a href="https://github.com/medusajs/medusa/blob/master/CONTRIBUTING.md">
-    <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat" alt="PRs welcome!" />
-  </a>
-    <a href="https://www.producthunt.com/posts/medusa"><img src="https://img.shields.io/badge/Product%20Hunt-%231%20Product%20of%20the%20Day-%23DA552E" alt="Product Hunt"></a>
-  <a href="https://discord.gg/xpCwq3Kfn8">
-    <img src="https://img.shields.io/badge/chat-on%20discord-7289DA.svg" alt="Discord Chat" />
-  </a>
-  <a href="https://twitter.com/intent/follow?screen_name=medusajs">
-    <img src="https://img.shields.io/twitter/follow/medusajs.svg?label=Follow%20@medusajs" alt="Follow @medusajs" />
-  </a>
-</p>
+[![npm version](https://img.shields.io/npm/v/@codemind.ec/medusa-plugin-additional-info.svg)](https://www.npmjs.com/package/@codemind.ec/medusa-plugin-additional-info)
+[![Medusa v2](https://img.shields.io/badge/medusa-v2-blueviolet)](https://docs.medusajs.com)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## Compatibility
+---
 
-This starter is compatible with versions >= 2.4.0 of `@medusajs/medusa`. 
+## Features
 
-## Getting Started
+- **Tree-based templates** — define hierarchical structures of sections, items, and content blocks.
+- **Versioned schemas** — `tree@1` and `diff@1` schemas with Zod validation.
+- **Diff-based overrides** — apply per-product patches, additions, reordering, and hiding without duplicating templates.
+- **Content blocks** — markdown (`md`) and list (`bullet`/`number`) blocks per node.
+- **Admin UI** — full CRUD interface with drag-and-drop tree editing for templates and product values.
+- **Store API** — public endpoint to fetch resolved additional info for any product.
+- **Product linking** — automatic Medusa link between additional info values and products.
 
-Visit the [Quickstart Guide](https://docs.medusajs.com/learn/installation) to set up a server.
+---
 
-Visit the [Plugins documentation](https://docs.medusajs.com/learn/fundamentals/plugins) to learn more about plugins and how to create them.
+## Prerequisites
 
-Visit the [Docs](https://docs.medusajs.com/learn/installation#get-started) to learn more about our system requirements.
+| Requirement | Version |
+|-------------|---------|
+| Node.js     | >= 20   |
+| Medusa      | >= 2.4.0 |
 
-## What is Medusa
+---
 
-Medusa is a set of commerce modules and tools that allow you to build rich, reliable, and performant commerce applications without reinventing core commerce logic. The modules can be customized and used to build advanced ecommerce stores, marketplaces, or any product that needs foundational commerce primitives. All modules are open-source and freely available on npm.
+## Installation
 
-Learn more about [Medusa’s architecture](https://docs.medusajs.com/learn/introduction/architecture) and [commerce modules](https://docs.medusajs.com/learn/fundamentals/modules/commerce-modules) in the Docs.
+```bash
+npm install @codemind.ec/medusa-plugin-additional-info
+# or
+pnpm add @codemind.ec/medusa-plugin-additional-info
+```
 
-## Community & Contributions
+---
 
-The community and core team are available in [GitHub Discussions](https://github.com/medusajs/medusa/discussions), where you can ask for support, discuss roadmap, and share ideas.
+## Configuration
 
-Join our [Discord server](https://discord.com/invite/medusajs) to meet other community members.
+Add the plugin to your `medusa-config.ts`:
 
-## Other channels
+```typescript
+import { defineConfig } from "@medusajs/framework/utils"
 
-- [GitHub Issues](https://github.com/medusajs/medusa/issues)
-- [Twitter](https://twitter.com/medusajs)
-- [LinkedIn](https://www.linkedin.com/company/medusajs)
-- [Medusa Blog](https://medusajs.com/blog/)
+export default defineConfig({
+  // ...
+  plugins: [
+    {
+      resolve: "@codemind.ec/medusa-plugin-additional-info",
+      options: {},
+    },
+  ],
+})
+```
+
+No environment variables are required.
+
+---
+
+## Architecture
+
+### Module: `additional-info`
+
+#### `additional_info_template`
+
+Reusable tree structures that define the shape of additional info.
+
+| Field | Type | Description |
+|-------|------|-------------|
+| `id` | string | Primary key |
+| `name` | string | Template name |
+| `description` | string? | Optional description |
+| `attributes` | JSON | Tree document (`tree@1` schema) |
+
+#### `additional_info_value`
+
+Per-product values, optionally referencing a template.
+
+| Field | Type | Description |
+|-------|------|-------------|
+| `id` | string | Primary key |
+| `product_id` | string | Associated product ID |
+| `template` | relation | Parent template (optional) |
+| `values` | JSON | Diff document or standalone tree |
+
+---
+
+### Schema: Tree v1
+
+Schema identifier: `com.mariquita.additional-info/tree@1`
+
+```typescript
+type AITreeDocV1 = {
+  schema: "com.mariquita.additional-info/tree@1"
+  rev: number
+  root: "root"
+  nodes: Record<string, AINodeV1>   // id → node
+  children: Record<string, string[]> // parentId → [childIds]
+  meta?: { createdAt?: string; updatedAt?: string }
+}
+
+type AINodeV1 = {
+  id: string
+  type: "root" | "section" | "item"
+  title: string
+  blocks?: AIBlockV1[]
+  tags?: string[]
+  ui?: { icon?: string; collapsed?: boolean }
+}
+
+type AIBlockV1 =
+  | { kind: "md"; value: string }
+  | { kind: "list"; style: "bullet" | "number"; items: string[] }
+```
+
+### Schema: Diff v1
+
+Schema identifier: `com.mariquita.additional-info/diff@1`
+
+```typescript
+type AIDiffDocV1 = {
+  schema: "com.mariquita.additional-info/diff@1"
+  baseRev: number
+  overrides?: Record<string, AINodePatchV1>   // per-node patches
+  additions?: AIAdditionsV1                    // new subtrees
+  childrenOrder?: Record<string, string[]>     // reorder children
+}
+
+type AIAdditionsV1 = {
+  mount: {
+    parentId: string
+    position?: "start" | "end"
+    index?: number
+  }
+  nodes: Record<string, AINodeV1>
+  children: Record<string, string[]>
+  rootIds: string[]
+}
+```
+
+---
+
+### Operations
+
+| Function | Description |
+|----------|-------------|
+| `createEmptyTree()` | Creates a canonical empty tree with a root node |
+| `validateTreeDocV1(input)` | Validates schema, root existence, cycle detection (DFS), and child references |
+| `resolveTree(base, diff?)` | Merges a base tree with a diff: applies overrides, prunes hidden subtrees, mounts additions, and reorders children |
+| `pruneHidden(tree, hiddenIds)` | Removes subtrees by ID |
+
+---
+
+## API Reference
+
+### Admin Routes
+
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| `GET` | `/admin/additional-info/templates` | List templates (paginated: `limit`, `offset`) |
+| `POST` | `/admin/additional-info/templates` | Create a template |
+| `GET` | `/admin/additional-info/templates/:id` | Get a template |
+| `PUT` | `/admin/additional-info/templates/:id` | Update a template |
+| `DELETE` | `/admin/additional-info/templates/:id` | Delete a template |
+| `GET` | `/admin/additional-info/values` | List values (filter: `product_id`, expand: `template`) |
+| `POST` | `/admin/additional-info/values` | Create value(s) — single or array |
+| `PUT` | `/admin/additional-info/values/:id` | Update a value |
+| `DELETE` | `/admin/additional-info/values/:id` | Delete a value |
+
+### Store Routes
+
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| `GET` | `/store/products/:id/additional-info` | Get resolved additional info for a product |
+
+### Create a Template
+
+```bash
+curl -X POST /admin/additional-info/templates \
+  -H "Content-Type: application/json" \
+  -d '{
+    "name": "Product Specs",
+    "attributes": {
+      "schema": "com.mariquita.additional-info/tree@1",
+      "rev": 1,
+      "root": "root",
+      "nodes": {
+        "root": { "id": "root", "type": "root", "title": "Root" },
+        "specs": { "id": "specs", "type": "section", "title": "Specifications", "blocks": [
+          { "kind": "md", "value": "Technical details for this product." }
+        ]}
+      },
+      "children": { "root": ["specs"] }
+    }
+  }'
+```
+
+---
+
+## Workflows
+
+### `createAdditionalInfoValuesWorkflow`
+
+1. **Step 1:** `createAdditionalInfoValuesStep` — creates value records (rollback: soft-delete).
+2. **Step 2:** `linkAdditionalInfoProductStep` — establishes links to products (rollback: dismiss links).
+
+---
+
+## Product Linking
+
+The plugin defines a Medusa link between `additional_info_value` and `Product` (using `Modules.PRODUCT`). This enables:
+
+- Querying values through product relations
+- Automatic cleanup on product deletion
+- Multiple values per product (`isList: true`)
+
+---
+
+## TypeScript Exports
+
+```typescript
+// Types
+import type { AITreeDocV1, AIDiffDocV1, AINodeV1, AIBlockV1 } from "@codemind.ec/medusa-plugin-additional-info/types"
+
+// Module
+import AdditionalInfoModule from "@codemind.ec/medusa-plugin-additional-info/modules/additional-info"
+
+// Workflows
+import { createAdditionalInfoValuesWorkflow } from "@codemind.ec/medusa-plugin-additional-info/workflows"
+```
+
+---
+
+## License
+
+MIT — [CodeMind](https://codemind.ec)
