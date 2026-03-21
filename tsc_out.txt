@@ -1,7 +1,0 @@
-src/admin/adapters/medusa/sdk.ts(9,18): error TS1343: The 'import.meta' meta-property is only allowed when the '--module' option is 'es2020', 'es2022', 'esnext', 'system', 'node16', 'node18', 'node20', or 'nodenext'.
-src/admin/routes/additional-info-templates/page.tsx(48,7): error TS2322: Type 'ZodObject<{ name: ZodString; description: ZodOptional<ZodString>; attributes: ZodEffects<ZodString, string, string>; }, "strip", ZodTypeAny, { ...; }, { ...; }>' is not assignable to type 'ZodType<TemplateFormValues, ZodTypeDef, TemplateFormValues>'.
-  Types of property '_type' are incompatible.
-    Type '{ name?: string; description?: string; attributes?: string; }' is not assignable to type 'TemplateFormValues'.
-      Property 'name' is optional in type '{ name?: string; description?: string; attributes?: string; }' but required in type 'TemplateFormValues'.
-src/admin/routes/additional-info-templates/page.tsx(140,31): error TS2345: Argument of type 'ZodType<TemplateFormValues, ZodTypeDef, TemplateFormValues>' is not assignable to parameter of type 'ZodType<any, any, $ZodTypeInternals<any, any>>'.
-  Type 'ZodType<TemplateFormValues, ZodTypeDef, TemplateFormValues>' is missing the following properties from type 'ZodType<any, any, $ZodTypeInternals<any, any>>': def, type, toJSONSchema, check, and 18 more.
