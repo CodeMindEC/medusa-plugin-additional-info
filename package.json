@@ -1,7 +1,7 @@
 {
     "name": "@codemind.ec/medusa-plugin-additional-info",
     "description": "Medusa v2 plugin for hierarchical product metadata — tree-based templates, drag-and-drop ordering, and per-variant overrides.",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "author": "Kollor <dev@codemind.ec> (https://codemind.ec)",
     "license": "MIT",
     "exports": {

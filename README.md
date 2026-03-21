@@ -41,13 +41,19 @@ pnpm add @codemind.ec/medusa-plugin-additional-info
 
 ## Configuration
 
-Add the plugin to your `medusa-config.ts`:
+Add the plugin and its module to your `medusa-config.ts`:
 
 ```typescript
 import { defineConfig } from "@medusajs/framework/utils"
 
 export default defineConfig({
   // ...
+  modules: [
+    {
+      resolve: "@codemind.ec/medusa-plugin-additional-info/additional-info",
+      definition: { isQueryable: true },
+    },
+  ],
   plugins: [
     {
       resolve: "@codemind.ec/medusa-plugin-additional-info",
@@ -57,7 +63,7 @@ export default defineConfig({
 })
 ```
 
-No environment variables are required.
+> **Nota:** El módulo se registra por separado en `modules[]` con `isQueryable: true` para que sea accesible desde el query graph de Medusa. La entrada en `plugins[]` carga admin UI, API routes, links y workflows.
 
 ---
 
