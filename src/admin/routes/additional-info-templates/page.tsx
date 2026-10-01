@@ -143,7 +143,7 @@ const AdditionalInfoTemplatesPage = () => {
             return { values: result.data, errors: {} }
         }
         const errors: Record<string, { type: string; message: string }> = {}
-        for (const err of result.error.errors) {
+        for (const err of result.error.issues) {
             const path = err.path.join('.')
             if (!errors[path]) {
                 errors[path] = { type: err.code, message: err.message }

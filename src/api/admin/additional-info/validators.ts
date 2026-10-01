@@ -4,7 +4,7 @@ import { z } from "@medusajs/framework/zod"
 // Shared primitives
 // ---------------------------------------------------------------------------
 
-export const AttributesSchema = z.record(z.unknown()).default({})
+export const AttributesSchema = z.record(z.string(), z.unknown()).default({})
 
 // ---------------------------------------------------------------------------
 // Template schemas
@@ -19,7 +19,7 @@ export const CreateTemplateSchema = z.object({
 export const UpdateTemplateSchema = z.object({
     name: z.string().min(1).optional(),
     description: z.string().nullable().optional(),
-    attributes: z.record(z.unknown()).optional(),
+    attributes: z.record(z.string(), z.unknown()).optional(),
 })
 
 export type CreateTemplateInput = z.infer<typeof CreateTemplateSchema>
@@ -30,6 +30,7 @@ export type UpdateTemplateInput = z.infer<typeof UpdateTemplateSchema>
 // ---------------------------------------------------------------------------
 
 export const ValuesMapSchema = z.record(
+    z.string(),
     z.union([z.string(), z.number(), z.boolean(), z.null()])
 ).default({})
 
@@ -47,7 +48,7 @@ export const CreateValuesBodySchema = z.union([
 
 export const UpdateValueSchema = z.object({
     template_id: z.string().optional(),
-    values: z.record(z.union([z.string(), z.number(), z.boolean(), z.null()])).optional(),
+    values: z.record(z.string(), z.union([z.string(), z.number(), z.boolean(), z.null()])).optional(),
 })
 
 export type CreateValueInput = z.infer<typeof CreateValueSchema>

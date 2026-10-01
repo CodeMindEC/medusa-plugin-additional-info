@@ -25,7 +25,7 @@ Medusa v2 plugin for **hierarchical product metadata** — tree-based templates,
 | Requirement | Version |
 |-------------|---------|
 | Node.js     | >= 20   |
-| Medusa      | >= 2.4.0 |
+| Medusa      | >= 2.13.3 (built and tested against 2.21.2) |
 
 ---
 
@@ -223,6 +223,22 @@ The plugin defines a Medusa link between `additional_info_value` and `Product` (
 - Querying values through product relations
 - Automatic cleanup on product deletion
 - Multiple values per product (`isList: true`)
+
+> **Medusa >= 2.21:** core Store API routes only return fields in their strict `allowed` list, so the `additional_info_value` link is **not** exposed through `fields` on `/store/products` by default. The plugin's own `GET /store/products/:id/additional-info` route is unaffected. If your storefront requests the link directly, opt in from your app with a global middleware (no `method` key):
+>
+> ```ts
+> // src/api/middlewares.ts (your Medusa app)
+> import { defineMiddlewares, allowFields } from "@medusajs/framework/http"
+>
+> export default defineMiddlewares({
+>   routes: [
+>     {
+>       matcher: "/store/products*",
+>       middlewares: [allowFields("additional_info_value", "additional_info_value.id", "additional_info_value.values")],
+>     },
+>   ],
+> })
+> ```
 
 ---
 
